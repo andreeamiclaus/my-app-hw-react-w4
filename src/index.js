@@ -4,8 +4,8 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+// import { StrictMode } from "react";
+// import { createRoot } from "react-dom/client";
 import CityName from "./CityName";
 import Conditions from "./Conditions";
 import CurrentLocation from "./CurrentLocation";
@@ -22,7 +22,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="root">
-      <h2>Weather App</h2>
+      <App />
 
       <div className="container">
         <div className="d-flex row">
