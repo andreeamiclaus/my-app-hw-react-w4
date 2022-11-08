@@ -6,7 +6,7 @@ export default function CityName() {
     <div className="CityName">
       <div className="row">
         <div className="col-6">
-          <h1 id="city"></h1>
+          <h1 id="city">City</h1>
           <h2>Friday 17:05</h2>
 
           <div className="clearfix weather-temperature">

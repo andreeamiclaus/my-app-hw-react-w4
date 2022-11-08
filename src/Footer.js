@@ -8,6 +8,7 @@ export default function Footer() {
         <a
           href="https://github.com/andreeamiclaus/my-weather-app"
           target="_blank"
+          rel="noreferrer"
           className="code"
         >
           Open source code,
