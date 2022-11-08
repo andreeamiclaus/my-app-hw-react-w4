@@ -1,0 +1,35 @@
+.CityName h1 {
+  font-family: "Arial";
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+.CityName h2 {
+  font-family: "Arial";
+  color: white;
+  display: block;
+
+  text-align: center;
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.CityName .icon {
+  position: relative;
+  top: -20px;
+}
+.CityName .temperature {
+  position: relative;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.CityName .units {
+  margin: 0;
+  display: block;
+
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}

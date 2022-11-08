@@ -1,13 +1,43 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import CityName from "./CityName";
+import Conditions from "./Conditions";
+import CurrentLocation from "./CurrentLocation";
+import Description from "./Description";
+import Footer from "./Footer";
+import SearchButton from "./SearchButton";
+import SearchForm from "./SearchForm";
+import WeatherForecast from "./WeatherForecast";
+
+import "./styles.css";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="root">
+      <h2>Weather App</h2>
+
+      <div className="container">
+        <div className="d-flex row">
+          <SearchForm />
+          <SearchButton />
+          <CurrentLocation />
+        </div>
+        <div className="d-flex row">
+          <CityName />
+          <Description />
+          <Conditions />
+        </div>
+        <WeatherForecast />
+        <Footer />
+      </div>
+    </div>
   </React.StrictMode>
 );
 

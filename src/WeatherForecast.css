@@ -1,0 +1,28 @@
+.WeatherForecast .weather-forecast {
+  margin-top: 25px;
+  text-align: center;
+  padding-bottom: 20px;
+  background-color: #85bcf0;
+  border-radius: 2%;
+}
+
+.WeatherForecast .weather-forecast-date {
+  color: white;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.WeatherForecast .weather-forecast-temperature-min {
+  opacity: 0.7;
+  color: white;
+}
+.WeatherForecast .weather-forecast-temperature-max {
+  color: white;
+}
+
+.WeatherForecast .weather-forecast-temperature {
+  font-size: 16px;
+  color: white;
+}
+.WeatherForecast .temperature {
+  display: flex;
+}
