@@ -14,6 +14,7 @@ import Footer from "./Footer";
 import SearchButton from "./SearchButton";
 import SearchForm from "./SearchForm";
 import WeatherForecast from "./WeatherForecast";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./styles.css";
 
